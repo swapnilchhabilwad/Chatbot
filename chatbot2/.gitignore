@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.python-version
+
+# Environment variables
+.env
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+.pdm.toml
+.pdm-python
+.installed.cfg
+
+# uv
+uv.lock
+
+# Project specific
+data/
+faiss_index/
+results/
+
+# Logs
+*.log

@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+*.ipynb
+.ipynb_checkpoints/
+
+# Local environment and generated app data
+.env
+faiss_index/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings (optional — uncomment if you want to ignore personal workspace settings)
+# .vscode/
+
+# Python build artifacts
+*.egg-info/
+dist/
+build/
